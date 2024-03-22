@@ -1,0 +1,3 @@
+# Start cronjob
+*/5 * * * * /usr/local/bin/autoremove-torrents --conf=/etc/autoremove_torrents/config.yml --log=/var/log >/proc/1/fd/1 2>/proc/1/fd/2
+# End Cronjob
